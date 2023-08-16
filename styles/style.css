@@ -39,7 +39,7 @@ a {
   align-items: center;
 }
 
-.header-phone {
+.phone-number {
   display: flex;
   align-items: center;
   margin-right: 60px;
@@ -50,7 +50,7 @@ a {
   font-size: 18px;
 }
 
-.header-phone::before {
+.phone-number::before {
   content: url(../images/carbon_phone.png);
   display: inline-block;
   width: 24px;
@@ -118,11 +118,9 @@ a {
   height: 21px;
   border: none;
   background: transparent;
-    
 }
 
 .search::placeholder {
-  /* font-family: 'Gilroy', sans-serif; */
   font-size: 18px;
   font-weight: 400;
   color: #828282;
@@ -258,7 +256,6 @@ a {
   font-size: 18px;
   line-height: 21px;
   color: #4F4F4F;
-  /* cursor: pointer; */
   padding: 4px 12px;
   border-radius: 5px;
   user-select: none;
@@ -327,5 +324,62 @@ a {
 
 .footer {
   background-color: #333333;
+  padding-top: 100px;
+  padding-bottom: 130px;
 }
 
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.payment, .delivery {
+  display: inline-block;
+  color:#FFF;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.delivery {
+  margin-left: 47px;
+}
+
+.footer-center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.vkontakte {
+  background-image: url(../images/vk.png);
+  width: 25px;
+  height: 25px;
+}
+
+.instagram {
+  background-image: url(../images/instagram.png);
+  width: 25px;
+  height: 25px;
+}
+
+.footer-right {
+  margin-left: 35px;
+}
+
+.footer-right .phone {
+  color:#FFF;
+}
+
+.footer-right .phone-number {
+  margin-right: 0px;
+}
+
+.footer-right .phone-number::before {
+  content: url(../images/phone.png);
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 9px;
+}
