@@ -1,7 +1,5 @@
 body {
     font-family: Gilroy, sans-serif;
-    font-size: 18px;
-    font-weight: 500;
 }
 
 .wrapper {
@@ -13,3 +11,130 @@ body {
 a {
   text-decoration: none;
 }
+
+.header {
+  background-color: #FFFFFF;
+  padding-top: 33px;
+  padding-bottom: 30px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 42px;
+}
+
+.logo {
+  width: 244px;
+  height: 45px;
+}
+
+.header-personal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-phone {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.phone {
+  color: #000000;
+  font-size: 18px;
+}
+
+.header-phone::before {
+  content: url(../images/carbon_phone.png);
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 9px;
+}
+
+.header-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-cart-icon {
+  width: 35px;
+  height: 38px;
+}
+
+.header-cart {
+  margin-right: 15px;
+}
+
+.personal-account {
+  width: 25px;
+  height: 25px;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-link {
+  color: #4F4F4F;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.header-link:not(:last-child) {
+  margin-right: 40px;
+}
+
+.dropdown::after {
+  content: url(../images/dropdown.png);
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+}
+
+.header-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 345px;
+  background-color: #F2F2F2;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.search {
+  height: 21px;
+  border: none;
+  background: transparent;
+    
+}
+
+.search::placeholder {
+  font-family: 'Gilroy', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #828282;
+}
+
+.search-button {
+  border: none;
+}
+
+.search-icon {
+  width: 30px;
+  height: 30px;
+ }
+
+ .main {
+  padding-top: 75px;
+  padding-bottom: 100px;
+  background-color: #F9F9F9;
+ }
